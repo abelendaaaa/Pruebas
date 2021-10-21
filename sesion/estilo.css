@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 50px auto;
+    text-align: center;
+    width: 800px;
+}
+ 
+h1 {
+    font-family: 'Passion One';
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+ 
+label {
+    width: 200px;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+ 
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+ 
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: orange;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+ 
+p.success,
+p.error {
+    color: white;
+    font-family: lato;
+    background: #28a745;
+    display: inline-block;
+    padding: 2px 10px;
+}
+ 
+p.error {
+    background: orangered;
+}
+
+.no_log{
+    max-width: 400px;
+    margin: auto;
+    font-size: 1.5rem;
+    display: grid;
+}
+
+.msg_no_log{
+    margin: 10px auto;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: orange;
+    color: white;
+    max-width: 200px;
+    border: none;
+}
