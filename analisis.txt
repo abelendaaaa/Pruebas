@@ -1,0 +1,14 @@
+# proyecto
+Proyecto Google Maps Api Carrefour
+
+
+Puntos PRINCIPALES para el proyecto:
+  - Login que diferencie una cuenta de admin y otra de usuario (si es admin redirigir a admin.php y si es usuario a mapa.php).
+  - Mapa en la página de usuario.php.
+  - Creación de bbdd y linkear con el mapa de usuario.php.
+  - Tabla con todos los puntos en admin.php.
+  - Creación de la edición de puntos en la tabla de admin.php.
+  - Botón de "ver mapa" y "ver tabla" si eres admin.
+  - Barra de búsqueda para la tabla de admin.php.
+  - Botón de crear punto en añadirPunto.php.
+  - Formulario de creación de puntos en añadirPunto.php y redirección a admin.php.
